@@ -11,6 +11,7 @@ Shearing process is used to cut off material by using punch, die and blank holde
   <b>Figure 1: Bar Shearing</b>
 </div>
 
+
 **Press Used:** Hydraulic press is used for the process. The plunger of the press is placed over the green die. The Yellow shear die rests on a hydraulic cushion and moves when force on it reaches 5 tonns or more.
 
 <div align="center">
@@ -21,6 +22,7 @@ Shearing process is used to cut off material by using punch, die and blank holde
   <b>Figure 2: Bottom shear die rests on a hydraulic cushion and moves
 when force on it reaches 5 tonnes or more</b>
 </div>
+
 
 **Sheared Billet:** The figure below shows the sheared billet. The right portion of bar is the sheared one whereas the bar on the other side is the left over bar for further shearing.
 
