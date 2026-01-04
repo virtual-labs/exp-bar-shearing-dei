@@ -4,7 +4,7 @@ Shearing process is used to cut off material by using punch, die and blank holde
 **Bar Shearing Setup: **Bar shearing Process uses four dies, two are stationary and two are moving. The purple and the pink dies shown below are stationary ones, whereas the green and yellow are moving.
 
 <div align="center">
-  <img src="experiment/images/fig 1_Barshear.png"
+  <img src="https://raw.githubusercontent.com/virtual-labs/exp-bar-shearing-dei/testing/experiment/images/fig%201_Barshear.png"
        alt="Bar Shearing"
        width="500">
   <br>
