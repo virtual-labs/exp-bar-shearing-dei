@@ -4,7 +4,7 @@ Shearing process is used to cut off material by using punch, die and blank holde
 **Bar Shearing Setup: **Bar shearing Process uses four dies, two are stationary and two are moving. The purple and the pink dies shown below are stationary ones, whereas the green and yellow are moving.
 
 <div align="center">
-  <img src="https://github.com/virtual-labs/exp-bar-shearing-dei/blob/testing/experiment/images/fig%201_Barshear.png"
+  <img src="experiment/images/fig 1_Barshear.png"
        alt="Bar Shearing"
        width="500">
   <br>
@@ -14,7 +14,7 @@ Shearing process is used to cut off material by using punch, die and blank holde
 **Press Used:** Hydraulic press is used for the process. The plunger of the press is placed over the green die. The Yellow shear die rests on a hydraulic cushion and moves when force on it reaches 5 tonns or more.
 
 <div align="center">
-  <img src="https://github.com/virtual-labs/exp-bar-shearing-dei/blob/testing/experiment/images/fig%202_Press.png"
+  <img src="experiment/images/fig 2_Press.png"
        alt="Bottom shear die resting on a hydraulic cushion."
        width="500">
   <br>
@@ -25,7 +25,7 @@ when force on it reaches 5 tonnes or more</b>
 **Sheared Billet:** The figure below shows the sheared billet. The right portion of bar is the sheared one whereas the bar on the other side is the left over bar for further shearing.
 
 <div align="center">
-  <img src="https://github.com/virtual-labs/exp-bar-shearing-dei/blob/testing/experiment/images/fig_3%20Billet.png"
+  <img src="experiment/images/fig_3 Billet.png"
        alt="Sheared Billet"
        width="500">
   <br>
