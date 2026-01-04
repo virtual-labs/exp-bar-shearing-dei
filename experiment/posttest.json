@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main mode of failure during the bar shearing process?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Tensile failure",
+        "b": "Bending failure",
+        "c": "Shear failure",
+        "d": "Fatigue failure"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which component applies direct force on the bar during shearing?",
+      "answers": {
+        "a": "Die",
+        "b": "Base plate",
+        "c": "Punch",
+        "d": "Frame"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The bar shearing process is mainly used to:",
+      "answers": {
+        "a": "Cut bars to required length",
+        "b": "Forge complex shapes",
+        "c": "Bend metal bars",
+        "d": "Heat treat metals"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which property of the material mainly determines the shearing force required?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Density",
+        "b": "Elastic modulus",
+        "c": "Hardness",
+        "d": "Shear strength"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The bar shearing process is classified under:",
+      "answers": {
+        "a": "Casting processes",
+        "b": "Metal forming processes",
+        "c": "Machining processes",
+        "d": "Joining processes"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
