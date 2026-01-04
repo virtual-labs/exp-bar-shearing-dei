@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How many dies are used in the bar shearing process shown ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of press is used in the bar shearing process ?",
+      "answers": {
+        "a": "Hydraulic Press",
+        "b": "Hammer Press",
+        "c": "Screw Press",
+        "d": "Mechanical Press"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "On which die is the forging force from the press acting ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Purple color die",
+        "b": "Pink color die",
+        "c": "Green color die",
+        "d": "Yellow color die"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the approximate pressing force required in the above bar shearing process:",
+      "answers": {
+        "a": "6 tonnes",
+        "b": "7 tonnes",
+        "c": "8 tonnes",
+        "d": "9 tonnes"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the limiting force for the lower yellow die above which it starts moving:",
+      "answers": {
+        "a": "5 tonnes",
+        "b": "2 tonnes",
+        "c": "3 tonnes",
+        "d": "4.5 tonnes"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
