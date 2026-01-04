@@ -1,1 +1,1 @@
-### To study the bar shearing process using a hydraulic bar shearing setup.
+ **To study the bar shearing process using a hydraulic bar shearing setup.**
