@@ -1,33 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Forming Simulation Lab</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
-	<h2>SIMULATION</h2>
 
-<div class="simulation-section">
-
-    <!-- Simulation 1 -->
-    <div class="simulation-block">
-        <button class="play-btn" onclick="playMP4('sim1','BarshearSetup.mp4')">
-            ▶ Play Simulation 1: Bar Shearing
-        </button>
-        <div id="sim1" class="video-frame"></div>
+    <div class="header-container">
+        <h2>Bar Shearing & Bar Curve Simulation</h2>
+        <div class="underline"></div>
     </div>
 
-    <!-- Simulation 2 -->
-    <div class="simulation-block">
-        <button class="play-btn" onclick="playMP4('sim2','BarshearCurve.mp4')">
-            ▶ Play Simulation 2: Bar Shearing with Forging Force
-        </button>
-        <div id="sim2" class="video-frame"></div>
+    <div class="vertical-nav">
+        <div class="nav-item">
+            <p class="cta-text">Observe the bar shearing Setup process</p>
+            <button class="play-btn" onclick="showSimulation('shearSetup')">▶ Play: Bar Shearing</button>
+        </div>
+
+        <div class="nav-item">
+            <p class="cta-text">Observe the bar shearing process under Forging force</p>
+            <button class="play-btn" onclick="showSimulation('shearCurve')">▶ Play: Bar Shearing Curve</button>
+        </div>
     </div>
 
-</div>
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <div class="content-container">
+
+        <div id="shearSetup" class="video-section" style="display:none;">
+            <h3>Bar Shearing Simulation</h3>
+            <video width="750" controls>
+                <source src="BarshearSetup.mp4" type="video/mp4">
+            </video>
+            <p><strong>Description:</strong> 
+This simulation shows a Bar shearing process. The green and yellow dies are movable whereas blue and pink are stationary. On the top right one can see the initial and the sheared billet. The bottom right shows the top shear and bottom shear dies used in the process. On the left one can see the complete simulation of bar shearing process. The press applies force on the top shear die shown in green. The bottom shear die yellow in colour rests on a hydraulic cushion and moves when a force on it reaches 5 Ton or more.</p>
+        </div>
+
+        <div id="shearCurve" class="video-section" style="display:none;">
+            <h3>Bar Shearing with Forging Force Simulation</h3>
+            <video width="750" controls>
+                <source src="BarshearCurve.mp4" type="video/mp4">
+            </video>
+            <p><strong>Description:</strong> 
+This simulation shows a Bar shearing process with stress and force analysis. On the top right corner normal stress distribution on the billet can be seen as the simulation is under progress. On the bottom right corner the graph between the pilot height and force in tonnes experienced by the top shear yellow die can be seen. The maximum force reached during the process is 8.1 tonnes.</p>
+        </div>
+    </div>
+
+    <script>
+        function showSimulation(id) {
+            var sections = document.getElementsByClassName('video-section');
+
+            for (var i = 0; i < sections.length; i++) {
+                sections[i].style.display = 'none';
+                var video = sections[i].querySelector('video');
+                if (video) {
+                    video.pause();
+                    video.currentTime = 0;
+                }
+            }
+
+            var activeSection = document.getElementById(id);
+            activeSection.style.display = 'block';
+
+            var activeVideo = activeSection.querySelector('video');
+            if (activeVideo) {
+                activeVideo.play();
+            }
+
+            activeSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
