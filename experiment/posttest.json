@@ -32,7 +32,7 @@
         "d": "Heat treat metals"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
       "question": "Which property of the material mainly determines the shearing force required?",
@@ -43,7 +43,7 @@
         "d": "Shear strength"
       },
       "correctAnswer": "d",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
       "question": "The bar shearing process is classified under:",
@@ -54,7 +54,7 @@
         "d": "Joining processes"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }
