@@ -1,4 +1,5 @@
-### Link your references in here
+### References:
+
 Kalpakjian, S., & Schmid, S. R., Manufacturing Processes for Engineering Materials, Pearson Education.
 
 Groover, M. P., Fundamentals of Modern Manufacturing, Wiley.
