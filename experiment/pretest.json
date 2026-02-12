@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "How many dies are used in the bar shearing process shown ?",
+      "question": "1. How many dies are used in the bar shearing process shown ?",
       "answers": {
         "a": "2",
         "b": "3",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which type of press is used in the bar shearing process ?",
+      "question": "2. Which type of press is used in the bar shearing process ?",
       "answers": {
         "a": "Hydraulic Press",
         "b": "Hammer Press",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "On which die is the forging force from the press acting ?",
+      "question": "3. On which die is the forging force from the press acting ?",
       "answers": {
         "a": "Purple color die",
         "b": "Pink color die",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the approximate pressing force required in the above bar shearing process:",
+      "question": "4. What is the approximate pressing force required in the above bar shearing process:",
       "answers": {
         "a": "6 tonnes",
         "b": "7 tonnes",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the limiting force for the lower yellow die above which it starts moving:",
+      "question": "5. What is the limiting force for the lower yellow die above which it starts moving:",
       "answers": {
         "a": "5 tonnes",
         "b": "2 tonnes",
