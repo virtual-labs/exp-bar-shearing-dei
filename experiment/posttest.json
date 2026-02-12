@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the main mode of failure during the bar shearing process?",
+      "question": "1. What is the main mode of failure during the bar shearing process?",
       "answers": {
         "a": "Tensile failure",
         "b": "Bending failure",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which component applies direct force on the bar during shearing?",
+      "question": "2. Which component applies direct force on the bar during shearing?",
       "answers": {
         "a": "Die",
         "b": "Base plate",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The bar shearing process is mainly used to:",
+      "question": "3. The bar shearing process is mainly used to:",
       "answers": {
         "a": "Cut bars to required length",
         "b": "Forge complex shapes",
@@ -32,10 +32,10 @@
         "d": "Heat treat metals"
       },
       "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
-      "question": "Which property of the material mainly determines the shearing force required?",
+      "question": "4. Which property of the material mainly determines the shearing force required?",
       "answers": {
         "a": "Density",
         "b": "Elastic modulus",
@@ -43,10 +43,10 @@
         "d": "Shear strength"
       },
       "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
-      "question": "The bar shearing process is classified under:",
+      "question": "5. The bar shearing process is classified under:",
       "answers": {
         "a": "Casting processes",
         "b": "Metal forming processes",
@@ -54,7 +54,7 @@
         "d": "Joining processes"
       },
       "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     }
   ]
 }
