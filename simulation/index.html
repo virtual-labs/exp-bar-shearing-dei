@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar Shearing & Bar Curve Simulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="header-container">
+    <h2>Bar Shearing & Bar Curve Simulation</h2>
+    <div class="underline"></div>
+</div>
+
+<div class="vertical-nav">
+
+    <div class="nav-item">
+        <p class="cta-text">Observe the bar shearing setup process</p>
+        <button class="play-btn" onclick="showSimulation('shearSetup')">
+            ▶ Play: Bar Shearing
+        </button>
+    </div>
+
+    <div class="nav-item">
+        <p class="cta-text">Analyze bar shearing under forging force with stress curve</p>
+        <button class="play-btn" onclick="showSimulation('shearCurve')">
+            ▶ Play: Bar Shearing Curve
+        </button>
+    </div>
+
+</div>
+
+<!-- ================= OVERLAYS ================= -->
+
+<!-- BAR SHEARING SETUP -->
+<div id="shearSetup" class="video-overlay">
+    <div class="video-card">
+        <button class="close-btn" onclick="hideSimulation('shearSetup')">&times;</button>
+        <h3>Bar Shearing Simulation</h3>
+        <video controls>
+            <source src="BarshearSetup.mp4" type="video/mp4">
+        </video>
+        <div class="description-box">
+            <p><strong>Description:</strong>
+            This simulation shows a Bar shearing process. The green and yellow dies are movable whereas blue and pink are stationary.
+            On the top right one can see the initial and the sheared billet. The bottom right shows the top shear and bottom shear dies used in the process.
+            On the left one can see the complete simulation of bar shearing process. The press applies force on the top shear die shown in green.
+            The bottom shear die (yellow in colour) rests on a hydraulic cushion and moves when a force on it reaches 5 Ton or more.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- BAR SHEARING CURVE -->
+<div id="shearCurve" class="video-overlay">
+    <div class="video-card">
+        <button class="close-btn" onclick="hideSimulation('shearCurve')">&times;</button>
+        <h3>Bar Shearing with Forging Force Simulation</h3>
+        <video controls>
+            <source src="BarshearCurve.mp4" type="video/mp4">
+        </video>
+        <div class="description-box">
+            <p><strong>Description:</strong>
+            This simulation shows a Bar shearing process with stress and force analysis.
+            On the top right corner, normal stress distribution on the billet can be seen as the simulation is under progress.
+            On the bottom right corner, the graph between the pilot height and force in tonnes experienced by the top shear yellow die can be seen.
+            The maximum force reached during the process is 8.1 tonnes.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>

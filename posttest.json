@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the main mode of failure during the bar shearing process?",
+      "answers": {
+        "a": "Tensile failure",
+        "b": "Bending failure",
+        "c": "Shear failure",
+        "d": "Fatigue failure"
+      },
+        "explanations": {
+        "a": "Incorrect — Tensile failure occurs due to pulling forces, not the primary action in shearing.",
+        "b": "Incorrect — Bending failure happens due to bending moments, which is not the main mechanism here.",
+        "c": "Correct — Shear failure occurs when opposing forces cause the material to slide and fracture along a plane.",
+        "d": "Incorrect — Fatigue failure occurs due to repeated cyclic loading, not single-force shearing."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which component applies direct force on the bar during shearing?",
+      "answers": {
+        "a": "Die",
+        "b": "Base plate",
+        "c": "Punch",
+        "d": "Frame"
+      },
+       "explanations": {
+        "a": "Incorrect — The die supports and shapes the material but does not directly apply force.",
+        "b": "Incorrect — The base plate supports the setup and does not exert cutting force.",
+        "c": "Correct — The punch directly applies force on the bar to cause shearing.",
+        "d": "Incorrect — The frame provides structural support only."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The bar shearing process is mainly used to:",
+      "answers": {
+        "a": "Cut bars to required length",
+        "b": "Forge complex shapes",
+        "c": "Bend metal bars",
+        "d": "Heat treat metals"
+      },
+        "explanations": {
+        "a": "Correct — Bar shearing is primarily used to cut metal bars into desired lengths.",
+        "b": "Incorrect — Forging complex shapes requires different forming processes.",
+        "c": "Incorrect — Bending is a separate metal forming operation.",
+        "d": "Incorrect — Heat treatment modifies material properties, not length."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which property of the material mainly determines the shearing force required?",
+      "answers": {
+        "a": "Density",
+        "b": "Elastic modulus",
+        "c": "Hardness",
+        "d": "Shear strength"
+      },
+         "explanations": {
+        "a": "Incorrect — Density affects weight but not directly the shearing force required.",
+        "b": "Incorrect — Elastic modulus relates to stiffness, not shear failure resistance.",
+        "c": "Incorrect — Hardness indicates surface resistance, not direct shear resistance.",
+        "d": "Correct — Shear strength determines the force needed to cause shearing failure."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The bar shearing process is classified under:",
+      "answers": {
+        "a": "Casting processes",
+        "b": "Metal forming processes",
+        "c": "Machining processes",
+        "d": "Joining processes"
+      },
+        "explanations": {
+        "a": "Incorrect — Casting involves pouring molten metal into molds.",
+        "b": "Correct — Bar shearing is a metal forming process involving plastic deformation and fracture.",
+        "c": "Incorrect — Machining removes material using cutting tools.",
+        "d": "Incorrect — Joining processes connect two or more parts together."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
