@@ -9,6 +9,12 @@
         "c": "4",
         "d": "5"
       },
+        "explanations": {
+        "a": "Incorrect — The process requires more than two dies to properly hold and shear the bar.",
+        "b": "Incorrect — Three dies are not sufficient for the complete bar shearing setup shown in the simulation.",
+        "c": "Correct — Four dies are used in the bar shearing process: upper die, lower die, and supporting dies.",
+        "d": "Incorrect — Five dies are not used in this particular simulation."
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "Hammer Press",
         "c": "Screw Press",
         "d": "Mechanical Press"
+      },
+       "explanations": {
+        "a": "Correct — A hydraulic press is used as it provides controlled and steady force required for shearing.",
+        "b": "Incorrect — Hammer press is mainly used for impact forging, not controlled shearing.",
+        "c": "Incorrect — Screw press is used for forging operations, not specifically for this shearing process.",
+        "d": "Incorrect — Mechanical press is not shown in the simulation."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Green color die",
         "d": "Yellow color die"
       },
+       "explanations": {
+        "a": "Incorrect — The purple die is not directly subjected to the pressing force.",
+        "b": "Incorrect — The pink die supports positioning but does not receive the main force.",
+        "c": "Correct — The forging force from the press acts on the green die.",
+        "d": "Incorrect — The yellow die acts as support and does not receive the primary pressing force."
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -42,6 +60,13 @@
         "c": "8 tonnes",
         "d": "9 tonnes"
       },
+      "explanations": {
+        "a": "Incorrect — 6 tonnes is lower than the required shearing force.",
+        "b": "Incorrect — 7 tonnes is slightly below the required force.",
+        "c": "Correct — Approximately 8 tonnes of force is required to shear the bar in the simulation.",
+        "d": "Incorrect — 9 tonnes exceeds the approximate required force."
+      },
+
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -52,6 +77,12 @@
         "b": "2 tonnes",
         "c": "3 tonnes",
         "d": "4.5 tonnes"
+      },
+      "explanations": {
+        "a": "Correct — The lower yellow die starts moving when the applied force exceeds 5 tonnes.",
+        "b": "Incorrect — 2 tonnes is too low to overcome the limiting resistance.",
+        "c": "Incorrect — 3 tonnes is below the required limiting force.",
+        "d": "Incorrect — 4.5 tonnes is slightly below the movement threshold."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
