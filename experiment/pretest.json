@@ -2,37 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. How many dies are used in the bar shearing process shown ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "explanations": {
+        "a": "Incorrect — The process requires more than two dies to properly hold and shear the bar.",
+        "b": "Incorrect — Three dies are not sufficient for the complete bar shearing setup shown in the simulation.",
+        "c": "Correct — Four dies are used in the bar shearing process: upper die, lower die, and supporting dies.",
+        "d": "Incorrect — Five dies are not used in this particular simulation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which type of press is used in the bar shearing process ?",
+      "answers": {
+        "a": "Hydraulic Press",
+        "b": "Hammer Press",
+        "c": "Screw Press",
+        "d": "Mechanical Press"
+      },
+       "explanations": {
+        "a": "Correct — A hydraulic press is used as it provides controlled and steady force required for shearing.",
+        "b": "Incorrect — Hammer press is mainly used for impact forging, not controlled shearing.",
+        "c": "Incorrect — Screw press is used for forging operations, not specifically for this shearing process.",
+        "d": "Incorrect — Mechanical press is not shown in the simulation."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. On which die is the forging force from the press acting ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Purple color die",
+        "b": "Pink color die",
+        "c": "Green color die",
+        "d": "Yellow color die"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+       "explanations": {
+        "a": "Incorrect — The purple die is not directly subjected to the pressing force.",
+        "b": "Incorrect — The pink die supports positioning but does not receive the main force.",
+        "c": "Correct — The forging force from the press acts on the green die.",
+        "d": "Incorrect — The yellow die acts as support and does not receive the primary pressing force."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the approximate pressing force required in the above bar shearing process:",
+      "answers": {
+        "a": "6 tonnes",
+        "b": "7 tonnes",
+        "c": "8 tonnes",
+        "d": "9 tonnes"
+      },
+      "explanations": {
+        "a": "Incorrect — 6 tonnes is lower than the required shearing force.",
+        "b": "Incorrect — 7 tonnes is slightly below the required force.",
+        "c": "Correct — Approximately 8 tonnes of force is required to shear the bar in the simulation.",
+        "d": "Incorrect — 9 tonnes exceeds the approximate required force."
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is the limiting force for the lower yellow die above which it starts moving:",
+      "answers": {
+        "a": "5 tonnes",
+        "b": "2 tonnes",
+        "c": "3 tonnes",
+        "d": "4.5 tonnes"
+      },
+      "explanations": {
+        "a": "Correct — The lower yellow die starts moving when the applied force exceeds 5 tonnes.",
+        "b": "Incorrect — 2 tonnes is too low to overcome the limiting resistance.",
+        "c": "Incorrect — 3 tonnes is below the required limiting force.",
+        "d": "Incorrect — 4.5 tonnes is slightly below the movement threshold."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
